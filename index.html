@@ -15,66 +15,8 @@
                 padding:20px;
             }
         </style>
-
-        <script>
-            const iconFriends = document.getElementById ("iconFriends")
-            const soundFriends = new Audio ()
-            soundFriends.src = "sounds/flamingo_glass.mp3"
-
-        iconFriends.onpointerdown = () => {
-            soundFriends.play ()
-            iconFriends.src = "img/changedImage/hex.png"
-
-            setTimeout (() => {
-                iconFriends.src = "icons/iconFriends.svg"
-        }, 2000)
-    }
-        </script>
-        <script>
-            //gather elements by id
-            const iconGames = document.getElementById ("iconGames")
-            const iconLibrary = document.getElementById ("iconLibrary")
-            const iconLocked = document.getElementById ("iconLocked")
-            const iconMedia = document.getElementById ("iconMedia")
-            const iconSearch= document.getElementById ("iconSearch")
-            const iconSettings = document.getElementById ("iconSettings")
-            const iconShop = document.getElementById ("iconShop")
-            const iconShared = document.getElementById ("iconShared")
-
-            //sound constants
-            const soundGames = new Audio ()
-            const soundLibrary = new Audio ()
-            const soundLocked = new Audio ()
-            const soundMedia = new Audio ()
-            const soundSearch = new Audio ()
-            const soundSettings = new Audio ()
-            const soundShop = new Audio ()
-            const soundShared = new Audio ()
-
-            //assigning audio
-            soundGames.src = "sounds/glass_tink_8.mp3" //glass tink 8
-            soundLibrary.src = "sounds/click_1.mp3" //wine glass rubbed
-            soundLocked.src = "sounds/click_1.mp3" //glass strike 01
-            soundMedia.src = "sounds/click_1.mp3" //putting glass on a table
-            soundSearch.src = "sounds/click_1.mp3" //objects glass hit 8
-            soundSettings.src = "sounds/click_1.mp3" //coins in a glass
-            soundShop.src = "sounds/click_1.mp3" //glass clink 1
-            soundShared.src = "sounds/click_1.mp3" //handling glass shards
-
-            //play commands for sounds
-            soundFriends.onpointerdown = () => soundFriends.play ()
-            soundGames.onpointerdown = () => soundGames.play ()
-            soundLibrary.onpointerdown = () => soundLibrary.play ()
-            soundLocked.onpointerdown = () => soundLocked.play ()
-            soundMedia.onpointerdown = () => soundMedia.play ()
-            soundSearch.onpointerdown = () => soundSearch.play ()
-            soundSettings.onpointerdown = () => soundSettings.play ()
-            soundShop.onpointerdown = () => soundShop.play ()
-            soundShared.onpointerdown = () => soundShared.play ()
-
-        </script>
-    </head>
 </head>
+
 <body>
     <h1>Empty</h1>
     <div class="row">
@@ -96,3 +38,132 @@
         </div>
 </body>
 </html>
+
+<script>
+    //Friends
+    const iconFriends = document.getElementById ("iconFriends")
+    const soundFriends = new Audio ()
+    soundFriends.src = "sounds/flamingo_glass.mp3"
+    
+    iconFriends.onpointerdown = () => {
+        soundFriends.play ()
+        iconFriends.src = "img/changedImage/hex.png"
+
+        setTimeout (() => {
+            iconFriends.src = "icons/iconFriends.svg"
+        }, 400)
+    }
+
+    //Games
+    const iconGames = document.getElementById ("iconGames")
+    const soundGames = new Audio ()
+    soundGames.src = "sounds/glass_tink_8.mp3"
+    
+    iconGames.onpointerdown = () => {
+        soundGames.play ()
+        iconGames.src = "img/changedImage/hex.png"
+
+        setTimeout (() => {
+            iconGames.src = "icons/iconGames.svg"
+        }, 300)
+    }
+
+    //Library
+    const iconLibrary = document.getElementById ("iconLibrary")
+    const soundLibrary = new Audio ()
+    soundLibrary.src = "sounds/wine-glass-2-rubbed.mp3"
+    
+    iconLibrary.onpointerdown = () => {
+        soundLibrary.play ()
+        iconLibrary.src = "img/changedImage/hex.png"
+
+        setTimeout (() => {
+            iconLibrary.src = "icons/iconLibrary.svg"
+        }, 1000)
+    }
+
+    //Locked
+    const iconLocked = document.getElementById ("iconLocked")
+    const soundLocked = new Audio ()
+    soundLocked.src = "sounds/glass-strikes-01.mp3"
+    
+    iconLocked.onpointerdown = () => {
+        soundLocked.play ()
+        iconLocked.src = "img/changedImage/hex.png"
+
+        setTimeout (() => {
+            iconLocked.src = "icons/iconLocked.svg"
+        }, 250)
+    }
+
+    //Media
+    const iconMedia = document.getElementById ("iconMedia")
+    const soundMedia = new Audio ()
+    soundMedia.src = "sounds/putting-a-glass-on-a-table.mp3"
+    
+    iconMedia.onpointerdown = () => {
+        soundMedia.play ()
+        iconMedia.src = "img/changedImage/hex.png"
+
+        setTimeout (() => {
+            iconMedia.src = "icons/iconMedia.svg"
+        }, 400)
+    }
+
+    //Search
+    const iconSearch = document.getElementById ("iconSearch")
+    const soundSearch = new Audio ()
+    soundSearch.src = "sounds/objects-glass-hit-8.mp3"
+    
+    iconSearch.onpointerdown = () => {
+        soundSearch.play ()
+        iconSearch.src = "img/changedImage/hex.png"
+
+        setTimeout (() => {
+            iconSearch.src = "icons/iconSearch.svg"
+        }, 250)
+    }
+
+    //Settings
+    const iconSettings = document.getElementById ("iconSettings")
+    const soundSettings = new Audio ()
+    soundSettings.src = "sounds/coins-in-a-glass-20.mp3"
+    
+    iconSettings.onpointerdown = () => {
+        soundSettings.play ()
+        iconSettings.src = "img/changedImage/hex.png"
+
+        setTimeout (() => {
+            iconSettings.src = "icons/iconSettings.svg"
+        }, 250)
+    }
+
+    //Shared
+    const iconLocked = document.getElementById ("iconShared")
+    const soundShared = new Audio ()
+    soundShared.src = "sounds/glass-clink-01.mp3"
+    
+    iconShared.onpointerdown = () => {
+        soundShared.play ()
+        iconShared.src = "img/changedImage/hex.png"
+
+        setTimeout (() => {
+            iconShared.src = "icons/iconShared.svg"
+        }, 250)
+    }
+
+    //Shop
+    const iconShop = document.getElementById ("iconShop")
+    const soundShop = new Audio ()
+    soundShop.src = "sounds/handling-glass-shards-1.mp3"
+    
+    iconShop.onpointerdown = () => {
+        soundShop.play ()
+        iconShop.src = "img/changedImage/hex.png"
+
+        setTimeout (() => {
+            iconShop.src = "icons/iconShop.svg"
+        }, 250)
+    }
+
+</script>
