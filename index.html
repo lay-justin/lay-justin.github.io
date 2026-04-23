@@ -15,26 +15,72 @@
                 padding:20px;
             }
         </style>
+        <script>
+            //gather elements by id
+            const iconFriends = document.getElementById ("iconFriends")
+            const iconGames = document.getElementById ("iconGames")
+            const iconLibrary = document.getElementById ("iconLibrary")
+            const iconLocked = document.getElementById ("iconLocked")
+            const iconMedia = document.getElementById ("iconMedia")
+            const iconSearch= document.getElementById ("iconSearch")
+            const iconSettings = document.getElementById ("iconSettings")
+            const iconShop = document.getElementById ("iconShop")
+            const iconShared = document.getElementById ("iconShared")
+
+            //sound constants
+            const soundFriends = new Audio ()
+            const soundGames = new Audio ()
+            const soundLibrary = new Audio ()
+            const soundLocked = new Audio ()
+            const soundMedia = new Audio ()
+            const soundSearch = new Audio ()
+            const soundSettings = new Audio ()
+            const soundShop = new Audio ()
+            const soundShared = new Audio ()
+
+            //assigning audio
+            soundFriends.src = "sounds/click_1.mp3"
+            soundGames.src = "sounds/click_1.mp3"
+            soundLibrary.src = "sounds/click_1.mp3"
+            soundLocked.src = "sounds/click_1.mp3"
+            soundMedia.src = "sounds/click_1.mp3"
+            soundSearch.src = "sounds/click_1.mp3"
+            soundSettings.src = "sounds/click_1.mp3"
+            soundShop.src = "sounds/click_1.mp3"
+            soundShared.src = "sounds/click_1.mp3"
+
+            //play commands for sounds
+            soundFriends.onpointerdown = () => soundFriends.play ()
+            soundGames.onpointerdown = () => soundGames.play ()
+            soundLibrary.onpointerdown = () => soundLibrary.play ()
+            soundLocked.onpointerdown = () => soundLocked.play ()
+            soundMedia.onpointerdown = () => soundMedia.play ()
+            soundSearch.onpointerdown = () => soundSearch.play ()
+            soundSettings.onpointerdown = () => soundSettings.play ()
+            soundShop.onpointerdown = () => soundShop.play ()
+            soundShared.onpointerdown = () => soundShared.play ()
+
+        </script>
     </head>
 </head>
 <body>
     <h1>Empty</h1>
     <div class="row">
-            <div class="image-container"><img src="icons/friends.svg" height="200" width="200"/></div>
-            <div class="image-container"><img src="icons/games.svg" height="200" width="200"/></div>
-            <div class="image-container"><img src="icons/library.svg" height="200" width="200"/></div>
+            <div class="image-container"><img id="iconFriends" src="icons/iconFriends.svg" height="200" width="200"/></div>
+            <div class="image-container"><img id="iconGames" src="icons/iconGames.svg" height="200" width="200"/></div>
+            <div class="image-container"><img id="iconLibrary" src="icons/iconLibrary.svg" height="200" width="200"/></div>
         </div>
 
         <div class="row">
-            <div class="image-container"><img src="icons/locked.svg" height="200" width="200"/></div>
-            <div class="image-container"><img src="icons/media.svg" height="200" width="200"/></div>
-            <div class="image-container"><img src="icons/search.svg" height="200" width="200"/></div>
+            <div class="image-container"><img id="iconLocked" src="icons/iconLocked.svg" height="200" width="200"/></div>
+            <div class="image-container"><img id="iconMedia" src="icons/iconMedia.svg" height="200" width="200"/></div>
+            <div class="image-container"><img id="iconSearch" src="icons/iconSearch.svg" height="200" width="200"/></div>
             </div>
 
         <div class="row">
-            <div class="image-container"><img src="icons/settings.svg" height="200" width="200"/></div>
-            <div class="image-container"><img src="icons/share.svg" height="200" width="200"/></div>
-            <div class="image-container"><img src="icons/shop.svg" height="200" width="200"/></div>
+            <div class="image-container"><img id="iconSettings" src="icons/iconSettings.svg" height="200" width="200"/></div>
+            <div class="image-container"><img id="iconShared" src="icons/iconShared.svg" height="200" width="200"/></div>
+            <div class="image-container"><img id="iconShop" src="icons/iconShop.svg" height="200" width="200"/></div>
         </div>
 </body>
 </html>
