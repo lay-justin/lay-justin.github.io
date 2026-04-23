@@ -16,8 +16,21 @@
             }
         </style>
         <script>
-            //gather elements by id
             const iconFriends = document.getElementById ("iconFriends")
+            const soundFriends = new Audio ()
+            soundFriends.src = "sounds/flamingo_glass.mp3"
+
+        iconFriends.onpointerdown = () => {
+            soundFriends.play ()
+            iconFriends.src = "img/changedImage/hex.png"
+
+            setTimeout (() => {
+                iconFriends.src = "icons/iconFriends.svg"
+        }, 2000)
+    }
+        </script>
+        <script>
+            //gather elements by id
             const iconGames = document.getElementById ("iconGames")
             const iconLibrary = document.getElementById ("iconLibrary")
             const iconLocked = document.getElementById ("iconLocked")
@@ -28,7 +41,6 @@
             const iconShared = document.getElementById ("iconShared")
 
             //sound constants
-            const soundFriends = new Audio ()
             const soundGames = new Audio ()
             const soundLibrary = new Audio ()
             const soundLocked = new Audio ()
@@ -39,7 +51,6 @@
             const soundShared = new Audio ()
 
             //assigning audio
-            soundFriends.src = "sounds/flamingo_glass.mp3" //flamingo glass
             soundGames.src = "sounds/click_1.mp3" //glass tink 8
             soundLibrary.src = "sounds/click_1.mp3" //wine glass rubbed
             soundLocked.src = "sounds/click_1.mp3" //glass strike 01
