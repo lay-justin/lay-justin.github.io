@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 141.73 141.73">
+  <!-- Generator: Adobe Illustrator 30.3.0, SVG Export Plug-In . SVG Version: 2.1.3 Build 182)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st1 {
+        opacity: .95;
+      }
+
+      .st2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="35.43" y1="99.21" x2="106.3" y2="99.21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#699" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#699" stop-opacity=".4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient1" x1="43.94" y1="40.39" x2="97.8" y2="40.39" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Locked">
+    <g>
+      <rect class="st2" x="35.43" y="70.87" width="70.87" height="56.69" rx="8.5" ry="8.5"/>
+      <image width="309" height="249" transform="translate(33.84 69.36) scale(.24)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATUAAAD3CAYAAAB8SMMPAAAACXBIWXMAAC4jAAAuIwF4pT92AAAFKUlEQVR4nO3czXXTWgBGUcU10gFQFdABRb6R3wrBIbJ0ryyf7D3Kr61Jzvoky3lZJvr+89eXmY8PPI8f377+PuJ5XmY8qJgB75kdt6FREzNgrVlxGxI1MQO2Gh233VETNGCvkWHbFTVBA0YZFbZNURMzYIYRYbs7aoIGzLYnbndFTdCAo2wN2+qoCRpwtC1hWxW1I4N21F3HwHZnbsKHUZt98CIGz29mJ54iakIGTbPidk8z/hm10QcoZvA5PHIMvRs1QQP2ekRHbkZt5IGIGXBkUy6jnmjLkwOfw5Et+GupjSqqoAFvHdGXKUtN0IBbjmjDH0ttREUFDfjIzNYMXWqCBqwxsxX/L7W95RQ04F4zujNkqQkasMWMdlyWxX/gADp2LzUrDdhjT0NuDbJdURM04GwuTj2BRxs5kDYvNSsNOIO3w2zqez8B1ho1lEQNSNkUNaeewJm8PgW11IDTGDGYRA1IETUg5e6ouZ4GnJmlBpzK3uEkakCKqAEpogakiBqQImpAiqgBKaIGpIgakCJqQIqoASmiBqSIGpAiakCKqAEpogakiBqQImpAiqgBKaIGpIgakCJqQIqoASmiBqSIGpAiakCKqAEpogakiBqQImpAiqgBKaIGpIgakCJqQIqoASmiBqSIGpAiakCKqAEpogakiBqQImpAiqgBKaIGpIgakCJqQIqoASmiBqSIGpAiakCKqAEpogakiBqQImpAiqgBKaIGpIgakCJqQIqoASmiBqSIGpAiakCKqAEpogakiBqQImpAiqgBKaIGpIgakCJqQIqoASmiBqSIGpAiakCKqAEpogakiBqQImpAiqgBKaIGpIgakCJqQIqoASmiBqSIGpAiakCKqAEpogakiBqQImpAiqgBKaIGpIgakCJqQIqoASmiBqSIGpAiakCKqAEpogakiBqQImpAiqgBKaIGpIgakCJqQIqoASmiBqSIGpAiakCKqAEpogakiBqQImpAiqgBKaIGpIgakCJqQIqoASmiBqSIGpAiakCKqAEpogakiBqQImpAiqgBKaIGpIgakCJqQIqoASmiBqSIGpAiakCKqAEpogakiBqQImpAiqgBKaIGpIgakCJqQIqoASmiBqSIGpAiakCKqAEpogakiBqQImpAiqgBKaIGpIgakCJqQIqoASmiBqSIGpAiakCKqAEpogakiBqQImpAiqgBKaIGpIgakCJqQIqoASmiBqSIGpAiakCKqAEpogakiBpwKt9//vqy5/dFDUi5O2p7Kwowk6UGpIga8PR+fPv6+/qxqAGnMeLy1qaoua4GnJWlBqRsjpq1Boy0tSmvr6cti6UGxFzeVu4e1howwsiWWGpAyu6oWWvAHnsacutM8/LeNwBmmzGKhpx+WmvAWby8/mRvnCw+YK1ZvRn6QoHFBqwxc0Bd1v7gWsIG/MvsRky5pUPYgFtGtOGj8fVX1EZdFxM24LWjmvBy64ujn9wLCPB5jezJmpbcPP0cHSGrDT6nR/zt31xqVzMOyGqDvke2459RW5Z5pRU36DlDLz6M2rLMn5ACB8/rbH04RdRuETo4n6NbsKUDq6K2LC72A8faOmxWR21ZhA04xp4ztbuidiVuwCx7Lz1titqyCBsw3ohr6ZujtizCBowz6sXBXVFbFmED9hl9p8PuqF2JG3CPWbdtDYvasggbsM7M+1CHRu1K3IBbjripfkrUrsQNWJZj3yE0NWqvCRx8Po94u+NhUXtN4KDr0e/bfkjU3hI5eF6PjhhA2n+vcEPkhwFW7AAAAABJRU5ErkJggg=="/>
+    </g>
+    <g class="st1">
+      <path class="st0" d="M70.11,14.18c-14.67.4-26.17,12.81-26.17,27.48v20.7c0,2.35,1.9,4.25,4.25,4.25h0c2.35,0,4.25-1.9,4.25-4.25v-20.82c0-9.99,7.77-18.5,17.75-18.85,10.48-.37,19.1,8.01,19.1,18.41v21.26c0,2.35,1.9,4.25,4.25,4.25h0c2.35,0,4.25-1.9,4.25-4.25v-21.07c0-.06,0-.13,0-.19,0-15.12-12.47-27.34-27.69-26.92Z"/>
+      <image width="238" height="232" transform="translate(42.24 12.48) scale(.24)" xlink:href="data:image/png;base64,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"/>
+    </g>
+  </g>
+</svg>
